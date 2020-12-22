@@ -5,7 +5,7 @@ class Snowflakes {
   
   public Snowflakes(){
     snowflakes = new ArrayList<Snowflake>();
-    this.sparkleEnabled = false;
+    this.sparkleEnabled = true;
     
     addSnowflake();
   }

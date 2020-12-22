@@ -3,7 +3,7 @@ class Snowfall {
   int snowLevel = 0;
   int minSnowSize = 1;
   int maxSnowSize = 10;
-  boolean isWindy = false;
+  boolean isWindy = true;
   int amountSnowFallen = 0;
   color snowColor;
   

@@ -13,7 +13,7 @@ public class Snowman {
   int offsetTop = offsetMid - (2*radiusTop);
   
   public Snowman() {
-    this.scale = height / 800.0;    // scale 1 for width=1200, height=800
+    this.scale = height/800.0;    // scale 1 for width=1200, height=800
     this.x = width/2;  // centered
     this.y = height;   // bottom of screen
     this.bodyColor = color(#FFFFFF);
